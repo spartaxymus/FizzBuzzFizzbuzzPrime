@@ -1,4 +1,5 @@
-//  Homework 6
+// Free to use for educational purpose
+
 let whatNum = (y) => {
     var status = false;
     if (y % 3 === 0) {
@@ -29,12 +30,12 @@ let findPrime = (x) => {
         if (x > 1) {
             status = true;
             console.log("Prime");
-        }if(x === 1){
+        } if (x === 1) {
             console.log(x);
-        } 
+        }
     } else {
         whatNum(x);
-        
+
     }
     return status;
 }
